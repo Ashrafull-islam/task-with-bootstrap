@@ -38,7 +38,7 @@ body {
     width: 100%;
     left:0;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    /* visibility: hidden; */
+    visibility: hidden;
 }
 .nav-section .leftnav-menu ul li :hover .mega-box{
     opacity: 1;
