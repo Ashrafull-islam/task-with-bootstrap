@@ -16,8 +16,8 @@ body {
     padding: 10px 0;
 }
 .nav-section .nav-logo img{
-    height: 20px;
-    width: 100px;
+    height: 25px;
+    width: auto;
 }
 .nav-section .leftnav-menu ul  li{
     font-size: 14px;
@@ -40,7 +40,7 @@ body {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     visibility: hidden;
 }
-.nav-section .leftnav-menu ul li :hover .mega-box{
+.nav-section .leftnav-menu ul li:hover .mega-box{
     opacity: 1;
     visibility: visible;
 }
@@ -57,7 +57,7 @@ body {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     visibility: hidden;
 }
-.nav-section .leftnav-menu ul li :hover .mega-box2{
+.nav-section .leftnav-menu ul li:hover .mega-box2{
     opacity: 1;
     visibility: visible;
 }
@@ -76,7 +76,7 @@ body {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     visibility: hidden;
 }
-.nav-section .leftnav-menu ul li :hover .mega-box4{
+.nav-section .leftnav-menu ul li:hover .mega-box4{
     opacity: 1;
     visibility: visible;
 }

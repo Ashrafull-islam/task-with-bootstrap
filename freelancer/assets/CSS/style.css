@@ -18,6 +18,46 @@ li{
     width: auto;
     mix-blend-mode: multiply;
 }
+.common-mega-design{
+    position: absolute;
+    top: 85px;
+    width: 60%;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.mega-box{
+    left:40px;
+    visibility: hidden;
+}
+.find-mega-box{
+    left: 200px;
+    visibility: hidden;
+
+}
+.Hire-freelancer:hover .mega-box{
+    visibility: visible;
+}
+.find-freelancer:hover .find-mega-box{
+    visibility: visible;
+}
+.mega-box .mega-content{
+    background-color: #031015;
+    padding: 25px 20px;
+}
+.find-mega-box .mega-content{
+    background-color: #031015;
+    padding: 25px 20px;
+}
+.mega-box .mega-content .middle-side .card img{
+    height: 120px;
+}
+.container .content  .find-mega-box .middle-side .card img{
+    height: 120px;
+}
+
+.mega-box .mega-content .middle-side .card div{
+    height: 60px;
+}
+
 
 .navigation .container .content .menu-box ul li{
     margin-left: 30px;
