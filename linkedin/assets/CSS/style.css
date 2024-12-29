@@ -1,0 +1,53 @@
+:root {
+    --linkedin-blue: #0a66c2;
+    --linkedin-black: rgba(0, 0, 0, 0.9);
+    --linkedin-gray: rgba(0, 0, 0, 0.6);
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+.container .content .nav-logo img{
+    height: 100px;
+    mix-blend-mode: multiply;
+}
+.container .content .nav-menu ul li{
+    margin-left: 2rem;
+}
+.container .content .nav-menu ul li a{
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--linkedin-gray);
+}
+.container .content .nav-menu ul li a:hover{
+    color:black
+}
+.container .content .nav-menu ul li a i{
+    font-size: 20px;
+}
+.container .content .nav-menu ul li .Join{
+    font-size: 16px;
+    color: var(--linkedin-gray); 
+    font-weight: 600;
+    padding: 10px 25px;
+}
+.container .content .nav-menu ul li .Join:hover{
+    border-radius: 40px;
+    background-color: #dbdada;
+}
+.container .content .nav-menu ul li .SignIn{
+    font-size: 16px;
+    color: var(--linkedin-blue); 
+    font-weight: 600;
+    padding: 10px 25px;
+    border: 1px solid var(--linkedin-blue);
+    border-radius:40px;
+}
+.container .content .nav-menu ul li .SignIn:hover{
+    background-color: rgb(200, 200, 231);
+}

@@ -1,0 +1,93 @@
+
+body {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+/* navbar start  */
+.nav-section{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+    position: fixed;
+    border: 1px solid rgb(228, 223, 223);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px 0;
+}
+.nav-section .nav-logo img{
+    height: 20px;
+    width: 100px;
+}
+.nav-section .leftnav-menu ul  li{
+    font-size: 14px;
+    margin-left: 27px;
+    list-style-type:none;
+}
+.nav-section .leftnav-menu ul li a{
+    text-decoration: none;
+    color: #111111;
+}
+.nav-section .leftnav-menu ul li a svg{
+    height: 15px;
+    width: 12px;
+}
+ .mega-box{
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    left:0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    /* visibility: hidden; */
+}
+.nav-section .leftnav-menu ul li :hover .mega-box{
+    opacity: 1;
+    visibility: visible;
+}
+.mega-box .mega-content{
+    background-color: white;
+    padding: 25px 20px;
+}
+
+/* right side css  */
+
+
+.nav-section .rightside-nav .searh-input{
+    border: 2px solid #EAEAEA;
+    border-radius: 30px;
+}
+.nav-section .rightside-nav .searh-input:hover{
+    background-color: rgb(252, 252, 252);
+}
+.nav-section .rightside-nav .searh-input input{
+    background-color: white;
+    height: 38px;
+    width: 200px;
+    border-radius: 30px;
+    border: none;
+}
+.nav-section .rightside-nav .searh-input input:hover{
+    background-color:white;
+    border: 1px solid #A5A5A5;
+}
+
+
+:hover.talent-btn{
+    border: 1px solid #A5A5A5;
+    border-radius: 30px;
+    background-color: white;
+}
+
+
+.btn-signin{
+    background-color: green;
+    border-radius: 10px;
+}
+
+.rirightside-nav  h4{
+    font-size: 5px;
+}
+p{
+    font-size: 13px;
+}
+
