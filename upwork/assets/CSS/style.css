@@ -49,6 +49,42 @@ body {
     padding: 25px 20px;
 }
 
+.mega-box2{
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    left:0;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    visibility: hidden;
+}
+.nav-section .leftnav-menu ul li :hover .mega-box2{
+    opacity: 1;
+    visibility: visible;
+}
+.mega-box .mega-content2{
+    background-color: white;
+    padding: 25px 20px;
+}
+
+
+.mega-box4{
+    position: absolute;
+    top: 70px;
+    width: 100%;
+    left:0;
+    padding: 50px 200px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    visibility: hidden;
+}
+.nav-section .leftnav-menu ul li :hover .mega-box4{
+    opacity: 1;
+    visibility: visible;
+}
+.mega-box .mega-content4{
+    background-color: white;
+    padding: 25px 20px;
+}
+
 /* right side css  */
 
 
